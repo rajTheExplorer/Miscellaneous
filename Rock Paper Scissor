@@ -1,0 +1,37 @@
+let myChoice=["rock","paper","sciscor"];
+let computerChoice=["rock","paper","scissor"];
+let myIChoiceIndex=prompt("Enter you want 0[rock] 1[paper] or 2[scissor]")
+let myIChoiceInd=parseInt(myIChoiceIndex);
+myIChoice=myChoice[myIChoiceInd];
+let computerIChoiceIndex=Math.floor(Math.random()*computerChoice.length);
+let computerIChoice=computerChoice[computerIChoiceIndex];
+alert(computerIChoice)
+alert(myIChoice)
+if(myIChoice==computerIChoice)
+{
+    alert("its a tie try again")
+}
+if(myIChoice=="rock" && computerIChoice=="scissor")
+{
+    alert("you win")
+}
+if(myIChoice=="scissor" && computerIChoice=="paper")
+{
+    alert("you win")
+}
+if(myIChoice=="paper" && computerIChoice=="rock")
+{
+    alert("you win")
+}
+if(computerIChoice=="rock" && myIChoice=="scissor")
+{
+    alert("you lose")
+}
+if(computerIChoice=="scissor" && myIChoice=="paper")
+{
+    alert("you lose")
+}
+if(computerIChoice=="paper" && myIChoice=="rock")
+{
+    alert("you lose")
+}
