@@ -1,0 +1,116 @@
+let bill=0;
+let pizzaSize=prompt("What size pizza do you want S or M or L")
+pizzaSize=pizzaSize.toUpperCase();
+if(pizzaSize==="S")
+{
+    bill+=15;
+    let addPepparoni=prompt("Do you want to add pepparoni")
+    if(addPepparoni==="Y")
+{
+    if(bill===15)
+    {
+        bill+=2;
+        let addCheese=prompt("do you want to add cheese")
+        if(addCheese==="Y")
+        {
+            bill+=1;
+            alert("your final bill is "+bill);
+        }
+        else
+        {
+            alert("your final bill is "+bill);
+        }
+    }
+    else
+    {
+        bill+=3;
+        let addCheese=prompt("do you want to add cheese")
+        if(addCheese==="Y")
+        {
+            bill+=1;
+            alert("your final bill is "+bill);
+        }
+    }
+}
+else
+{
+    alert("your final bill is "+bill);
+}
+}
+if(pizzaSize==="M")
+{
+    bill+=20;
+    let addPepparoni=prompt("Do you want to add pepparoni")
+    if(addPepparoni==="Y")
+{
+    if(bill===15)
+    {
+        bill+=2;
+        let addCheese=prompt("do you want to add cheese")
+        if(addCheese==="Y")
+        {
+            bill+=1;
+            alert("your final bill is "+bill);
+        }
+        else
+        {
+            alert("your final bill is "+bill);
+        }
+    }
+    else
+    {
+        bill+=3;
+        let addCheese=prompt("do you want to add cheese")
+        if(addCheese==="Y")
+        {
+            bill+=1;
+            alert("your final bill is "+bill);
+        }
+        else
+        {
+            alert("your final bill is "+bill);
+        }
+    }
+}
+else
+{
+    alert("your final bill is "+bill);
+}
+}
+if(pizzaSize==="L")
+{
+    bill+=25;
+    let addPepparoni=prompt("Do you want to add pepparoni")
+    if(addPepparoni==="Y")
+{
+    if(bill===15)
+    {
+        bill+=2;
+        let addCheese=prompt("do you want to add cheese")
+        if(addCheese==="Y")
+        {
+            bill+=1;
+            alert("your final bill is "+bill);
+        }
+    }
+    else
+    {
+        bill+=3;
+        let addCheese=prompt("do you want to add cheese")
+        if(addCheese==="Y")
+        {
+            bill+=1;
+            alert("your final bill is "+bill);
+        }
+        else
+{
+    alert("your final bill is "+bill);
+}
+    }
+}
+else
+{
+    alert("your final bill is "+bill);
+}
+}
+
